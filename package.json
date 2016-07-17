@@ -1,0 +1,16 @@
+{
+  "name": "harms-insurance-website",
+  "version": "1.0.0",
+  "description": "website rebuild using bootstrap",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-postcss": "^6.1.1",
+    "gulp-sass": "^2.3.2"
+  }
+}
