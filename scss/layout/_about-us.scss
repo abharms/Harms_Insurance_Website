@@ -1,0 +1,102 @@
+/* ----------------------------------------
+   About Us Page
+   ---------------------------------------*/
+
+   /* ------------------------
+   Breadcrumb Bar
+   ------------------------*/
+
+   .breadcrumb-bar {
+      height: 110px;
+      background-image: url(../img/blue-bg.jpg);
+   }
+
+   .breadcrumb-text h3 {
+   	color: $color-text-light;
+   }
+
+   /* ------------------------
+   Meet Our Staff
+   ------------------------*/
+
+   #meet-staff-title h1 {
+   	text-align: center;
+   }
+
+   .meet-staff-col {
+   	margin-top: 100px;
+   	margin-bottom: 200px;
+   }
+
+   .img-box {
+   	height: 331px;
+   	width: 260px;
+   	border: 1px solid grey;
+   	
+   }
+
+   .img-box img {
+   	max-height: 100%;
+   	max-width: 100%;
+   }
+
+   .bottom-blue-bar {
+   	height: 8px;
+   	background-color: $color-main-blue;
+   	width: 260px;
+   }
+
+
+/* ------------------------
+   About Us
+   ------------------------*/
+
+ 	.about-us {
+ 		height: 600px;
+ 		background: url(../img/blurred-img.jpg) center center no-repeat;
+ 		background-attachment: fixed;
+ 		background-size: cover;
+ 	}
+
+ 	.about-us h1 {
+ 		color: $color-text-light;
+ 		text-align: center;
+ 		margin-top: 220px;
+ 	}
+
+ 	.about-us-description p {
+ 		color: $color-text-light;
+ 		text-align: center;
+ 	}
+
+
+ /* ------------------------
+   Have Questions?
+   ------------------------*/
+
+   .have-questions {
+   	height: 200px;
+   }
+
+   .question {
+   	margin-top: 70px;
+   }
+
+   .get-in-touch {
+   	margin-top: -30px;
+   }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   

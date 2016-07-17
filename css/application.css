@@ -4,17 +4,12 @@
 /* ------------------------
    Base Imports
    ------------------------*/
-/* ------------------------
+/* -------------------------------------------
    Base Styles
-   ------------------------*/
-.who-we-are h4,
-.who-we-are h2,
-.who-we-are h3 {
-  color: white; }
-
+   ------------------------------------------*/
 /* ------------------------
-   Header Styles
-   ------------------------*/
+Header Styles
+------------------------*/
 header {
   height: 85px; }
 
@@ -34,85 +29,6 @@ nav {
 
 .nav-tabs > li > a {
   margin-right: 15px; }
-
-/* ------------------------
-Main Slider
-------------------------*/
-.my-slider {
-  background-position: center center;
-  background-size: cover;
-  height: 600px;
-  min-width: 80%; }
-
-#blue-slide > img,
-#house-slide > img,
-#car-slide > img {
-  width: 100%;
-  height: 75%;
-  background-position: center center;
-  background-repeat: no-repeat; }
-
-#blue-slide p {
-  color: white; }
-
-/* ------------------------
-Products
-------------------------*/
-#products-title,
-#products-text {
-  text-align: center; }
-
-.product-link-text {
-  margin-top: 20px; }
-
-.product-photos {
-  margin-top: 130px;
-  text-align: center; }
-
-.product-photos > div > a > img {
-  border-radius: 50%; }
-
-.product-link-text {
-  display: block;
-  text-align: center;
-  margin-bottom: 150px; }
-
-/* ------------------------
-Who We Are
-------------------------*/
-#who-we-are {
-  background-image: url(../img/home-street.jpg);
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 450px; }
-
-.who-we-are h4,
-.who-we-are h2,
-.who-we-are h3 {
-  text-align: center; }
-
-.who-we-are h4 {
-  margin-top: 120px; }
-
-.who-we-are a {
-  display: block;
-  text-align: center; }
-
-/* ------------------------
-Personal Service
-------------------------*/
-#personal-service {
-  height: 350px; }
-
-.personal-service h4,
-.personal-service h2,
-.personal-service h3 {
-  text-align: center; }
-
-.personal-service h4 {
-  margin-top: 80px; }
 
 /* ------------------------
 Footer
@@ -147,9 +63,181 @@ Footer
 .footer-text {
   margin-top: 30px; }
 
+/* ------------------------
+   Layout Imports
+   ------------------------*/
+/* ------------------------
+Main Slider
+------------------------*/
+.my-slider {
+  background-position: center center;
+  background-size: cover;
+  height: 600px;
+  min-width: 80%; }
+
+#blue-slide > img,
+#house-slide > img,
+#car-slide > img {
+  width: 100%;
+  height: 75%;
+  background-position: center center;
+  background-repeat: no-repeat; }
+
+#blue-slide p {
+  color: #fff; }
+
+/* ------------------------
+Products
+------------------------*/
+#products-title,
+#products-text {
+  text-align: center; }
+
+.product-link-text {
+  margin-top: 20px; }
+
+.product-photos {
+  margin-top: 130px;
+  text-align: center; }
+
+.product-photos > div > a > img {
+  border-radius: 50%; }
+
+.product-link-text {
+  display: block;
+  text-align: center;
+  margin-bottom: 150px; }
+
+/* ------------------------
+Who We Are
+------------------------*/
+.who-we-are h4,
+.who-we-are h2,
+.who-we-are h3 {
+  color: #fff;
+  text-align: center; }
+
+#who-we-are {
+  background-image: url(../img/home-street.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 450px; }
+
+.who-we-are h4 {
+  margin-top: 120px; }
+
+.who-we-are a {
+  display: block;
+  text-align: center; }
+
+/* ------------------------
+Personal Service
+------------------------*/
+#personal-service {
+  height: 350px; }
+
+.personal-service h4,
+.personal-service h2,
+.personal-service h3 {
+  text-align: center; }
+
+.personal-service h4 {
+  margin-top: 80px; }
+
+/* ----------------------------------------
+   About Us Page
+   ---------------------------------------*/
+/* ------------------------
+Breadcrumb Bar
+------------------------*/
+.breadcrumb-bar {
+  height: 110px;
+  background-image: url(../img/blue-bg.jpg); }
+
+.breadcrumb-text h3 {
+  color: #fff; }
+
+/* ------------------------
+Meet Our Staff
+------------------------*/
+#meet-staff-title h1 {
+  text-align: center; }
+
+.meet-staff-col {
+  margin-top: 100px;
+  margin-bottom: 200px; }
+
+.img-box {
+  height: 331px;
+  width: 260px;
+  border: 1px solid grey; }
+
+.img-box img {
+  max-height: 100%;
+  max-width: 100%; }
+
+.bottom-blue-bar {
+  height: 8px;
+  background-color: #232ed1;
+  width: 260px; }
+
+/* ------------------------
+   About Us
+   ------------------------*/
+.about-us {
+  height: 600px;
+  background: url(../img/blurred-img.jpg) center center no-repeat;
+  background-attachment: fixed;
+  background-size: cover; }
+
+.about-us h1 {
+  color: #fff;
+  text-align: center;
+  margin-top: 220px; }
+
+.about-us-description p {
+  color: #fff;
+  text-align: center; }
+
+/* ------------------------
+  Have Questions?
+  ------------------------*/
+.have-questions {
+  height: 200px; }
+
+.question {
+  margin-top: 70px; }
+
+.get-in-touch {
+  margin-top: -30px; }
+
+/* ------------------------
+   Components Imports
+   ------------------------*/
+.btn-sm {
+  color: #fff;
+  border: 1px solid #fff;
+  width: 20%; }
+
+.btn-sm:hover {
+  background-color: #fff;
+  color: transparent; }
+
 @media screen and (min-width: 991px) {
   #logo {
     height: 30%;
     width: 70%; } }
+@media screen and (max-width: 991px) {
+  .header-contact-info {
+    display: none; }
+
+  .question {
+    margin-left: 20%; }
+
+  .get-in-touch {
+    margin-top: 30px;
+    margin-left: 30%; } }
 
 /*# sourceMappingURL=application.css.map */

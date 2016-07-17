@@ -1,0 +1,11 @@
+
+.btn-sm {
+	color: $color-text-light;
+	border: 1px solid $color-text-light;
+	width: 20%;
+}
+
+.btn-sm:hover {
+	background-color: $color-text-light;
+	color: transparent;
+}

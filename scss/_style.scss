@@ -5,5 +5,19 @@
      	width: 70%;
  	}
    
-
 }
+
+ @media screen and (max-width: 991px) {
+ 	.header-contact-info {
+ 		display: none;
+ 	}
+
+ 	.question {
+ 		margin-left: 20%;
+ 	}
+
+ 	.get-in-touch {
+ 		margin-top: 30px;
+ 		margin-left: 30%;
+ 	}
+ }
