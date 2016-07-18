@@ -1,5 +1,5 @@
 
-var menu = $('#menu');
+var menu = $('.nav');
 var headerContactInfo = $('.header-contact-info');
 
 $(window).resize(function() {
