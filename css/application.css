@@ -30,6 +30,27 @@ nav {
 .nav-tabs > li > a {
   margin-right: 15px; }
 
+ /* ------------------------
+Breadcrumbs
+------------------------*/
+.breadcrumb-title {
+  color: #fff;
+  margin-top: 16px; }
+
+.breadcrumb-links {
+  margin-top: 35px; }
+
+.breadcrumb-links a {
+  color: #fff;
+  padding: 10px; }
+
+/* ------------------------
+Section
+------------------------*/
+.section-title {
+  text-align: center;
+  margin-top: 75px; }
+
 /* ------------------------
 Footer
 ------------------------*/
@@ -162,9 +183,6 @@ Breadcrumb Bar
 /* ------------------------
 Meet Our Staff
 ------------------------*/
-#meet-staff-title h1 {
-  text-align: center; }
-
 .meet-staff-col {
   margin-top: 100px;
   margin-bottom: 200px; }
@@ -210,8 +228,77 @@ Meet Our Staff
 .question {
   margin-top: 70px; }
 
-.get-in-touch {
-  margin-top: -30px; }
+/* .get-in-touch {
+ 	margin-top: -30px;
+ }*/
+.claims-col {
+  text-align: center;
+  margin-bottom: 30px; }
+
+.claims-col a {
+  display: block; }
+
+.payments-link {
+  margin-top: 40px; }
+
+.first-logo-row,
+.second-logo-row {
+  padding: 100px 0 100px 0; }
+
+.second-logo-row {
+  background-color: #f7f7f7; }
+
+/* ------------------------
+   Contact Us
+   ------------------------*/
+form input,
+textarea {
+  width: 100%;
+  border-style: solid;
+  border-width: thin;
+  border-color: #ccc; }
+
+form input {
+  height: 40px; }
+
+textarea:focus,
+input:focus {
+  outline: none; }
+
+.contact-information {
+  text-align: center; }
+
+/* ------------------------
+   Insurance Offerings
+   ------------------------*/
+.offerings-col h1,
+.offerings-col h3 {
+  text-align: center; }
+
+table {
+  margin: 30px auto 0 auto;
+  font-size: 14px; }
+
+table, th, td {
+  border: 1px solid #ccc;
+  border-collapse: collapse; }
+
+th, td {
+  padding: 0.8571rem 15rem 0.8571rem 15rem;
+  text-align: center; }
+
+#personal-lines {
+  background-color: #232ed1;
+  color: #fff; }
+
+#commercial-lines {
+  background-color: #ccc; }
+
+.table-col {
+  padding: 0; }
+
+.table-col-wrapper {
+  margin-bottom: 100px; }
 
 /* ------------------------
    Components Imports

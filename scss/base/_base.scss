@@ -33,6 +33,33 @@
       margin-right: 15px;
    }
 
+    /* ------------------------
+   Breadcrumbs
+   ------------------------*/
+
+   .breadcrumb-title {
+      color: $color-text-light;
+      margin-top: 16px;
+   }
+
+   .breadcrumb-links{
+      margin-top: 35px;
+   }
+
+   .breadcrumb-links a {
+      color: $color-text-light;
+      padding: 10px;
+   }
+
+   /* ------------------------
+   Section
+   ------------------------*/
+
+   .section-title {
+      text-align: center;
+      margin-top: 75px;
+   }
+
 
 
    /* ------------------------

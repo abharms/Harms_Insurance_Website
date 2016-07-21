@@ -1,0 +1,24 @@
+/* ------------------------
+   Contact Us
+   ------------------------*/ 
+
+   form input,
+   textarea {
+   	width: 100%;
+   	border-style: solid;
+   	border-width: thin;
+   	border-color: $color-light-grey;
+   }
+
+   form input {
+   	height: 40px;
+   }
+
+   textarea:focus, 
+   input:focus{
+    outline: none;
+   }
+
+	.contact-information {
+		text-align: center;
+	}
