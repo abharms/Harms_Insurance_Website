@@ -8,11 +8,14 @@
   <meta name="description" content="Harms Insurance Agency">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
+  <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="bootstrap/css/bootstrap-theme.min.css">
   <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
   <link rel="stylesheet" href="jquery-plugins/unslider.css">
   <link rel="stylesheet" href="jquery-plugins/unslider-dots.css">
   <link rel="stylesheet" href="css/application.css">
+  <script src="https://use.fontawesome.com/c286d4eb4b.js"></script>
+
 
 
 </head>
@@ -49,7 +52,7 @@
             <li><a href="about-us.html">About Us</a></li>
             <li><a href="products.html">Products</a></li>
             <li><a href="claims-payments.html">Claims &amp; Payments</a></li>
-            <li><a href="contact.html">Contact Us</a></li>
+            <li><a href="contact-us.html">Contact Us</a></li>
           </ul>
         </div><!--/.nav-collapse -->
       </div>
@@ -60,13 +63,40 @@
     <div class="my-slider">
       <ul>
         <li id="blue-slide">
-          <img src="img/blue-bg.jpg">
-          <p>WELCOME TO</p>
-          <p>HARMS INSURANCE AGENCY</p>
+          <div class="image">
+            <img src="img/blue-bg.jpg">
+            <h4>WELCOME TO</h4>
+            <h4 id="harms-insurance-slide-text">HARMS INSURANCE AGENCY</h4>
+            <h1 id="we-provide">We provide personal service</h1>
+            <h1 id="insurance-needs">for your insurance needs</h1>
+            <a class="btn-lg" href="#">About Us</a>
+          </div>
           
         </li>
-        <li id="house-slide"><img src="img/house.jpg"></li>
-        <li id="car-slide"><img src="img/car.jpg"></li>
+        <li id="house-slide">
+          <div class="image">
+            <img src="img/house.jpg">
+            <h1 id="home-slider-text">Home Insurance</h1>
+          </div>
+        </li>
+        <li id="car-slide">
+          <div class="image">
+            <img src="img/car.jpg">
+            <h1 id="auto-slider-text">Auto Insurance</h1>
+          </div>
+        </li>
+        <li id="farm-slide">
+          <div class="image">
+            <img src="img/barn.jpg">
+            <h1 id="farm-slider-text">Farm Insurance</h1>
+          </div>
+        </li>
+        <li id="sb-slide">
+          <div class="image">
+            <img src="img/sb.jpg">
+            <h1 id="sb-slider-text">Small Business Insurance</h1>
+          </div>
+        </li>
       </ul>
     </div>
 
@@ -74,7 +104,7 @@
 
     <section>
       <div class="container">
-        <div class="row">
+        <div class="row products-row">
           <h1 id="products-title">Products</h1>
           <h3 id="products-text">As an independent agency, we can offer a range of insurance products, even beyond those listed below.  Contact us today to see how we can help with your insurance needs.</h3>
           <div class="product-photos">
@@ -105,10 +135,10 @@
     <section id="who-we-are">
       <div class="container">
         <div class="row">
-          <div class="who-we-are">
+          <div class="col-md-6 col-md-offset-3 who-we-are-text">
             <h4>Harms Insurance Agency</h4>
             <h2>WHO WE ARE</h2>
-            <h3>Thanks for stopping by!  We are a small independent agency serving Western Oklahoma since 1993.  We offer personalized coverage written with reputable companies who provide excellent claims service.  We look forward to visiting with you!</h3>
+            <h4 id="thanks">Thanks for stopping by!  We are a small independent agency serving Western Oklahoma since 1993.  We offer personalized coverage written with reputable companies who provide excellent claims service.  We look forward to visiting with you!</h4>
             <a class="btn-sm" href="#">About Us</a>
           </div>
         </div>
@@ -123,7 +153,7 @@
           <div class="personal-service">
             <h4>Our Promise To You</h4>
             <h2>PERSONAL SERVICE</h2>
-            <h3>We offer you some of the best values in auto, home, life, and commercial insurance through some of the most respected companies in the nation. We provide personal service for your insurance needs.</h3>
+            <h4 id="we-offer">We offer you some of the best values in auto, home, life, and commercial insurance through some of the most respected companies in the nation. We provide personal service for your insurance needs.</h4>
           </div>
 
         </div>

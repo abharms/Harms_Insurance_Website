@@ -7,6 +7,8 @@
   <title>Harms Insurance Agency</title>
   <meta name="description" content="Harms Insurance Agency">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="bootstrap/css/bootstrap-theme.min.css">
   <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
   <link rel="stylesheet" href="jquery-plugins/unslider.css">
@@ -61,11 +63,12 @@
         <div class="row">
           <div class="breadcrumb-wrapper">
             <div class="col-md-4 breadcrumb-title">
-              <h3>Products</h3>
+              <h3>Contact Us</h3>
             </div>
             <div class="col-md-2 col-md-offset-4 pull-right breadcrumb-links">
               <a href="#">Home</a>
-              <a href="#">Products</a>
+              <p class="greater-than">&gt;</p>
+              <a href="#">Contact Us</a>
             </div>
           </div>
         </div>
@@ -83,15 +86,18 @@
           <div class="col-md-10 col-md-offset-1">
             <div class="col-md-6">
               <form>
-                <p>Your Name (Required)</p>
-                <input type="text" name="name">
-                <p>Your Email (Required)</p>
-                <input type="text" name="email">
-                <p>Subject</p>
+                <label for="name">Your Name (Required)</label><span class="name-hint">Please enter your name</span>
+                <input id="name" type="text" name="name">
+                <label for="email">Your Email (Required)</label><span class="email-hint">Please enter a valid email address</span>
+                <input id="email" type="email" name="email">
+                <label for="subject">Subject</label>
                 <input type="text" name="subject">
               </form>
-              <p>Your Message</p>
+              <label for="Text1">Your Message</label>
               <textarea name="Text1" cols="40" rows="5"></textarea>
+              <div class="send-btn-wrapper">
+                <a id="send-btn" href="#">Send</a>
+              </div>
             </div>
             <div class="col-md-6 contact-information">
               <h3>CONTACT INFORMATION</h3>
@@ -107,6 +113,16 @@
             </div>
           </div><!--end offset-->
     </section>
+
+    <!--Google Map-->
+    <section>
+      <div class="container-fluid">
+        <div class="row">
+          <div id="map"></div>
+        </div>
+      </div>
+    </section>
+    
 
     
     <!--Footer-->
@@ -151,5 +167,8 @@
   <script src="bootstrap/js/bootstrap.min.js"></script>
   <script src="jquery-plugins/unslider.js"></script> 
   <script src="js/scripts.js"></script>
+  <script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAvAaqs8T5tNUDGw6zG2rO0bR_gcfQZduc&callback=initMap">
+    </script>
 </body>
 </html>

@@ -30,6 +30,9 @@ nav {
 .nav-tabs > li > a {
   margin-right: 15px; }
 
+/* ------------------------
+   Slider
+   ------------------------*/
  /* ------------------------
 Breadcrumbs
 ------------------------*/
@@ -38,11 +41,17 @@ Breadcrumbs
   margin-top: 16px; }
 
 .breadcrumb-links {
-  margin-top: 35px; }
+  margin-top: 35px;
+  margin-left: -20px;
+  width: 22%; }
 
 .breadcrumb-links a {
   color: #fff;
   padding: 10px; }
+
+.greater-than {
+  color: white;
+  display: inline-block; }
 
 /* ------------------------
 Section
@@ -91,20 +100,67 @@ Footer
 Main Slider
 ------------------------*/
 .my-slider {
-  background-position: center center;
-  background-size: cover;
-  height: 600px;
-  min-width: 80%; }
+  max-height: 600px; }
 
 #blue-slide > img,
 #house-slide > img,
-#car-slide > img {
-  width: 100%;
-  height: 75%;
-  background-position: center center;
-  background-repeat: no-repeat; }
+#car-slide > img,
+#farm-slide > img,
+#sb-slide > img {
+  max-width: 100%;
+  min-height: 50%; }
 
-#blue-slide p {
+.unslider-nav ol li {
+  border: 1px solid #232ed1;
+  width: 9px;
+  height: 9px; }
+
+.unslider-nav ol li.unslider-active {
+  background: #232ed1; }
+
+.image {
+  position: relative; }
+
+.image img {
+  width: 100%; }
+
+.image h1,
+.image h4 {
+  position: absolute;
+  color: #fff; }
+
+.image h4 {
+  top: 10%;
+  left: 12%; }
+
+#harms-insurance-slide-text {
+  top: 18%;
+  left: 12%; }
+
+.image h1 {
+  position: absolute;
+  top: 25%;
+  left: 12%; }
+
+#we-provide {
+  top: 24%;
+  left: 12%; }
+
+#insurance-needs {
+  top: 34%; }
+
+.image a {
+  position: absolute;
+  top: 52%;
+  left: 12%; }
+
+#home-slider-text {
+  top: 60%;
+  left: 30%; }
+
+.unslider-arrow {
+  font-size: 48px;
+  top: 440px;
   color: #fff; }
 
 /* ------------------------
@@ -132,9 +188,9 @@ Products
 /* ------------------------
 Who We Are
 ------------------------*/
-.who-we-are h4,
-.who-we-are h2,
-.who-we-are h3 {
+.who-we-are-text h4,
+.who-we-are-text h2,
+.who-we-are-text h3 {
   color: #fff;
   text-align: center; }
 
@@ -146,12 +202,11 @@ Who We Are
   background-size: cover;
   height: 450px; }
 
-.who-we-are h4 {
-  margin-top: 120px; }
+.who-we-are-text h4 {
+  margin-top: 60px; }
 
-.who-we-are a {
-  display: block;
-  text-align: center; }
+#thanks {
+  margin-top: 40px; }
 
 /* ------------------------
 Personal Service
@@ -166,6 +221,9 @@ Personal Service
 
 .personal-service h4 {
   margin-top: 80px; }
+
+#we-offer {
+  margin-top: 30px; }
 
 /* ----------------------------------------
    About Us Page
@@ -261,12 +319,29 @@ textarea {
 form input {
   height: 40px; }
 
+.name-hint,
+.email-hint {
+  margin-left: 8px;
+  color: red; }
+
 textarea:focus,
 input:focus {
   outline: none; }
 
 .contact-information {
   text-align: center; }
+
+#map {
+  width: 100%;
+  height: 300px;
+  margin-top: 60px; }
+
+#send-btn {
+  padding: 2% 46% 2% 46%;
+  border: 2px solid #232ed1; }
+
+.send-btn-wrapper {
+  margin: 45px 0 25px 0; }
 
 /* ------------------------
    Insurance Offerings
@@ -306,12 +381,72 @@ th, td {
 .btn-sm {
   color: #fff;
   border: 1px solid #fff;
-  width: 20%; }
+  margin: 40px auto 0 auto;
+  text-align: center;
+  width: 15%;
+  padding: 0.7143rem 0 0.7143rem 0; }
 
-.btn-sm:hover {
+.btn-lg {
+  color: #fff;
+  border: 1px solid #fff;
+  padding: 20px 42px 20px 42px; }
+
+.who-we-are-text a {
+  display: block; }
+
+.who-we-are-text a:hover {
+  color: #232ed1;
   background-color: #fff;
-  color: transparent; }
+  text-decoration: none; }
 
+/* ------------------------
+   Typography
+   ------------------------*/
+* {
+  font-family: 'Lato', sans-serif; }
+
+.image h4 {
+  font-size: .95rem; }
+
+.image h1 {
+  font-size: 2rem; }
+
+#home-slider-text {
+  font-size: 2rem; }
+
+/* ------------------------
+   Slider responsive text
+   ------------------------*/
+@media screen and (max-width: 768px) {
+  .image a {
+    padding: 10px 21px 10px 21px;
+    top: 65%;
+    font-size: 10px; } }
+@media screen and (min-width: 768px) {
+  .image h4 {
+    font-size: 2rem; }
+
+  .image h1 {
+    font-size: 4rem; }
+
+  #home-slider-text {
+    font-size: 4rem;
+    top: 70%;
+    left: 35%; } }
+@media screen and (max-width: 991px) {
+  .breadcrumb-links {
+    display: none; } }
+@media screen and (min-width: 1200px) {
+  #harms-insurance-slide-text {
+    top: 14%; }
+
+  .image h1 {
+    font-size: 7rem; }
+
+  #home-slider-text {
+    font-size: 5rem;
+    top: 48%;
+    left: 35%; } }
 @media screen and (min-width: 991px) {
   #logo {
     height: 30%;

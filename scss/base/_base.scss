@@ -33,6 +33,11 @@
       margin-right: 15px;
    }
 
+/* ------------------------
+   Slider
+   ------------------------*/
+
+
     /* ------------------------
    Breadcrumbs
    ------------------------*/
@@ -44,11 +49,18 @@
 
    .breadcrumb-links{
       margin-top: 35px;
+      margin-left: -20px;
+      width: 22%;
    }
 
    .breadcrumb-links a {
       color: $color-text-light;
       padding: 10px;
+   }
+
+   .greater-than {
+      color: white;
+      display: inline-block;
    }
 
    /* ------------------------

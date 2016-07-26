@@ -5,21 +5,82 @@
    ------------------------*/ 
 
    .my-slider {
-      background-position: center center;
-      background-size: cover;
-      height: 600px;
-      min-width: 80%;
-   }
-   #blue-slide>img,
-   #house-slide>img,
-   #car-slide>img {
-      width: 100%;
-      height: 75%;
-      background-position: center center;
-      background-repeat: no-repeat;
+      max-height: 600px;
    }
 
-   #blue-slide p {
+
+   #blue-slide>img,
+   #house-slide>img,
+   #car-slide>img,
+   #farm-slide>img,
+   #sb-slide>img {
+      max-width: 100%;
+      min-height: 50%;
+   }
+
+   .unslider-nav ol li {
+      border: 1px solid $color-main-blue;
+      width: 9px;
+      height: 9px;
+   }
+
+   .unslider-nav ol li.unslider-active {
+         background: $color-main-blue;
+   }
+
+   .image {
+      position: relative;
+   }
+
+   .image img {
+      width: 100%;
+   }
+
+   .image h1,
+   .image h4 {
+      position: absolute;
+      color: $color-text-light; 
+   }
+
+   .image h4 {
+      top: 10%;
+      left: 12%;
+   }
+
+   #harms-insurance-slide-text {
+      top: 18%;
+      left: 12%;
+   }
+
+   .image h1 {
+      position: absolute;
+      top: 25%;
+      left: 12%;
+   }
+
+   #we-provide {
+      top: 24%;
+      left: 12%;
+   }
+
+   #insurance-needs {
+      top: 34%;
+   }
+
+   .image a {
+      position: absolute;
+      top: 52%;
+      left: 12%;
+   }
+
+   #home-slider-text {
+      top: 60%;
+      left: 30%;
+   }
+
+   .unslider-arrow {
+      font-size: 48px;
+      top: 440px;
       color: $color-text-light;
    }
 
@@ -52,13 +113,14 @@
       margin-bottom: 150px;
    }
 
+
    /* ------------------------
    Who We Are
    ------------------------*/ 
 
-   .who-we-are h4,
-   .who-we-are h2,
-   .who-we-are h3 {
+   .who-we-are-text h4,
+   .who-we-are-text h2,
+   .who-we-are-text h3 {
       color: $color-text-light;
       text-align: center;
    }
@@ -73,14 +135,14 @@
    }
 
 
-   .who-we-are h4 {
-      margin-top: 120px;
+   .who-we-are-text h4 {
+      margin-top: 60px;
    }
 
-   .who-we-are a {
-      display: block;
-      text-align: center;
+   #thanks {
+      margin-top: 40px;
    }
+
 
    /* ------------------------
    Personal Service
@@ -98,3 +160,19 @@
    .personal-service h4 {
       margin-top: 80px;
    }
+
+   #we-offer {
+      margin-top: 30px;
+   }
+
+
+
+
+
+
+
+
+
+
+
+
