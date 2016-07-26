@@ -1,0 +1,39 @@
+/* ------------------------
+   Insurance Offerings
+   ------------------------*/
+
+.offerings-col h1,
+.offerings-col h3 {
+	text-align: center;
+}
+
+table {
+	margin: 30px auto 0 auto;
+	font-size: 14px;
+}
+
+table, th, td {
+    border: 1px solid $color-light-grey;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 0.8571rem 15rem 0.8571rem 15rem;
+    text-align: center;
+}
+
+#personal-lines {
+	background-color: $color-main-blue;
+	color: $color-text-light;
+}
+
+#commercial-lines {
+	background-color: $color-light-grey;
+}
+
+.table-col {
+	padding: 0;
+}
+
+.table-col-wrapper {
+	margin-bottom: 100px;
+}

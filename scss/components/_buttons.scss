@@ -2,10 +2,25 @@
 .btn-sm {
 	color: $color-text-light;
 	border: 1px solid $color-text-light;
-	width: 20%;
+	margin: 40px auto 0 auto;
+  	text-align: center;
+ 	width: 15%;
+  	padding: 0.7143rem 0 0.7143rem 0;
 }
 
-.btn-sm:hover {
-	background-color: $color-text-light;
-	color: transparent;
+.btn-lg {
+	color: $color-text-light;
+	border: 1px solid $color-text-light;
+	padding: 20px 42px 20px 42px;
+}
+
+.who-we-are-text a {
+  display: block;
+  
+}
+
+.who-we-are-text a:hover {
+  color: $color-main-blue;
+  background-color: $color-text-light;
+  text-decoration: none;
 }

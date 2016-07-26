@@ -1,0 +1,46 @@
+/* ------------------------
+   Contact Us
+   ------------------------*/ 
+
+   form input,
+   textarea {
+   	width: 100%;
+   	border-style: solid;
+   	border-width: thin;
+   	border-color: $color-light-grey;
+   }
+
+   form input {
+   	height: 40px;
+   }
+
+   .name-hint,
+   .email-hint {
+    margin-left: 8px;
+    color: red;
+
+   }
+
+   textarea:focus, 
+   input:focus{
+    outline: none;
+   }
+
+	.contact-information {
+		text-align: center;
+	}
+
+	#map {
+		width: 100%;
+        height: 300px;
+        margin-top: 60px;
+	}
+	
+	#send-btn {
+		padding: 2% 46% 2% 46%;
+		border: 2px solid $color-main-blue;
+	}
+
+	.send-btn-wrapper {
+		margin: 45px 0 25px 0;
+	}

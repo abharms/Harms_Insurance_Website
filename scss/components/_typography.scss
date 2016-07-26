@@ -1,0 +1,79 @@
+/* ------------------------
+   Typography
+   ------------------------*/ 
+
+   * {
+   	font-family: 'Lato', sans-serif;
+   }
+
+   .image h4 {
+   	font-size: .95rem;
+   }
+
+   .image h1 {
+	font-size: 2rem;
+   }
+
+   #home-slider-text {
+	   	font-size: 2rem;
+	   }
+
+
+/* ------------------------
+   Slider responsive text
+   ------------------------*/ 
+
+   @media screen and (max-width: 768px) {
+      .image a {
+         padding: 10px 21px 10px 21px;
+         top: 65%;
+         font-size: 10px;
+      }
+
+   }   
+
+   @media screen and (min-width: 768px) {
+
+   		.image h4 {
+   			font-size: 2rem;
+   		}
+
+   		.image h1 {
+		   	font-size: 4rem;
+	   }
+
+	   #home-slider-text {
+		   	font-size: 4rem;
+		   	top: 70%;
+		   	left: 35%;
+	   }
+	
+   }
+
+   @media screen and (max-width: 991px) {
+      
+      .breadcrumb-links {
+         display: none;
+      }
+   }
+
+   @media screen and (min-width: 1200px) {
+
+   		#harms-insurance-slide-text {
+   			top: 14%;
+   		}
+
+
+   		.image h1 {
+	   		font-size: 7rem;
+	   }
+
+	    #home-slider-text {
+		   	font-size: 5rem;
+		 	   top: 48%;
+		   	left: 35%;
+	   }
+
+   }
+
+   
