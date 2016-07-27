@@ -72,17 +72,20 @@
    ------------------------*/
 
    .have-questions {
-   	height: 200px;
+      height: 200px;
+   }
+
+   .question,
+   .get-in-touch {
+      text-align: center;
    }
 
    .question {
-   	margin-top: 70px;
+      margin-top: 80px;
    }
-
-  /* .get-in-touch {
-   	margin-top: -30px;
-   }*/
-
+   .get-in-touch {
+      margin-top: 100px;
+   }
 
 
 
