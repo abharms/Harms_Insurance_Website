@@ -245,19 +245,22 @@ Meet Our Staff
   margin-top: 100px;
   margin-bottom: 200px; }
 
+.img-box,
+.bottom-blue-bar {
+  width: 260px;
+  margin: 0 auto; }
+
 .img-box {
   height: 331px;
-  width: 260px;
   border: 1px solid grey; }
+
+.bottom-blue-bar {
+  height: 8px;
+  background-color: #232ed1; }
 
 .img-box img {
   max-height: 100%;
   max-width: 100%; }
-
-.bottom-blue-bar {
-  height: 8px;
-  background-color: #232ed1;
-  width: 260px; }
 
 /* ------------------------
    About Us
@@ -467,11 +470,10 @@ th, td {
   .header-contact-info {
     display: none; }
 
-  .question {
-    margin-left: 20%; }
-
+  /*.question {
+  	margin-left: 20%;
+  }*/
   .get-in-touch {
-    margin-top: 30px;
-    margin-left: 30%; } }
+    margin-top: 30px; } }
 
 /*# sourceMappingURL=application.css.map */

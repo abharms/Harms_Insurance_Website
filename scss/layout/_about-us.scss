@@ -25,11 +25,20 @@
    	margin-bottom: 200px;
    }
 
+   .img-box,
+   .bottom-blue-bar {
+   	width: 260px;   	
+      margin: 0 auto;
+   }
+
    .img-box {
-   	height: 331px;
-   	width: 260px;
-   	border: 1px solid grey;
-   	
+      height: 331px;
+      border: 1px solid grey;
+   }
+
+   .bottom-blue-bar {
+      height: 8px;
+      background-color: $color-main-blue;
    }
 
    .img-box img {
@@ -37,11 +46,7 @@
    	max-width: 100%;
    }
 
-   .bottom-blue-bar {
-   	height: 8px;
-   	background-color: $color-main-blue;
-   	width: 260px;
-   }
+   
 
 
 /* ------------------------
@@ -83,6 +88,7 @@
    .question {
       margin-top: 80px;
    }
+
    .get-in-touch {
       margin-top: 100px;
    }

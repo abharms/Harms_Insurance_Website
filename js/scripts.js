@@ -45,6 +45,7 @@ jQuery(document).ready(function($) {
 		//show hint if no name is entered
 		if($('#name').val() < 1) {
 			nameHint.show();
+			return false;
 		}
 		else {
 			//hide hint if name is entered
@@ -53,12 +54,17 @@ jQuery(document).ready(function($) {
 		//get value of email address field
 		var emailAddress = $('#email').val();
 		//check to see if email address is valid
-		if( !validateEmail(emailAddress)) {
+		if( !validateEmail(emailAddress) || emailAddress === '') {
 			emailHint.show();
+			return false;
 		}
 		else {
 			emailHint.hide();
 		}
+
+		$('.contact-form').empty();
+		$('.contact-form').html('<div>Thanks for your submission!</div>');
+		return true;
 	})
 
 //Contact Page Google Map
